@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-links">
+            <a href="">Student Manager</a>
+        </div>
+        <div class="header-links">
+            <a href="">Главная</a>
+            <a href="">Студенты</a>
+            <a href="">О нас</a>
+        </div>
+    </header>
+    <h1>Управление студентами</h1>
+    <p>Добавляйте студентов и просматривайте список группы</p>
+    <div class="container">
+        <p>Добавить студента</p>
+        <form action="">
+            <div class="field">
+                <label for="name">Имя</label>
+                <input type="text" id="name">
+            </div>
+            <div class="field">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname">
+            </div>
+            <div class="field">
+                <label for="email">Почта</label>
+                <input type="email" id="email">
+            </div>
+            <div class="field">
+                <label for="group">Группа</label>
+                <input type="text" id="group">
+            </div>
+        </form>
+        <button>Добавить студента</button>
+    </div>
+    <div class="container">
+        <p>Список студентов</p>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Почта</th>
+                <th>Группа</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Иван</td>
+                <td>Иванов</td>
+                <td>ivanov@mail.com</td>
+                <td>IT-24</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Петр</td>
+                <td>Петров</td>
+                <td>petrov@mail.com</td>
+                <td>IT-25</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Сергей</td>
+                <td>Сергеев</td>
+                <td>sergeev@mail.com</td>
+                <td>IT-26</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Алексей</td>
+                <td>Алексеев</td>
+                <td>alekseev@mail.com</td>
+                <td>IT-27</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <b>О проекте</b>
+        <p>Student Manager - простой проект для управления студентами</p>
+    </div>
+</body>
+</html>
